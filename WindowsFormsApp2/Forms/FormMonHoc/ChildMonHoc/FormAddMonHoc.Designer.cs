@@ -667,8 +667,10 @@
             this.ClientSize = new System.Drawing.Size(800, 534);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FormAddMonHoc";
-            this.Text = "FormAddMonHoc";
+            this.Text = "Thêm thông tin môn học";
             this.Load += new System.EventHandler(this.FormAddMonHoc_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

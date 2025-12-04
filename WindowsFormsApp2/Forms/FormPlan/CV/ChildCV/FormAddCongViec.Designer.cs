@@ -127,7 +127,7 @@
             this.pnl_NghienCuu.Controls.Add(this.txt_MaDeTai);
             this.pnl_NghienCuu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.pnl_NghienCuu.Location = new System.Drawing.Point(361, 149);
-            this.pnl_NghienCuu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnl_NghienCuu.Margin = new System.Windows.Forms.Padding(4);
             this.pnl_NghienCuu.Name = "pnl_NghienCuu";
             this.pnl_NghienCuu.Size = new System.Drawing.Size(353, 123);
             this.pnl_NghienCuu.TabIndex = 24;
@@ -156,7 +156,7 @@
             this.pnl_SuKien.Controls.Add(this.txt_DiaDiem);
             this.pnl_SuKien.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.pnl_SuKien.Location = new System.Drawing.Point(361, 149);
-            this.pnl_SuKien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnl_SuKien.Margin = new System.Windows.Forms.Padding(4);
             this.pnl_SuKien.Name = "pnl_SuKien";
             this.pnl_SuKien.Size = new System.Drawing.Size(353, 116);
             this.pnl_SuKien.TabIndex = 25;
@@ -189,7 +189,7 @@
             this.pnl_GiangDay.Controls.Add(this.label5);
             this.pnl_GiangDay.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.pnl_GiangDay.Location = new System.Drawing.Point(361, 149);
-            this.pnl_GiangDay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnl_GiangDay.Margin = new System.Windows.Forms.Padding(4);
             this.pnl_GiangDay.Name = "pnl_GiangDay";
             this.pnl_GiangDay.Size = new System.Drawing.Size(353, 123);
             this.pnl_GiangDay.TabIndex = 23;
@@ -199,7 +199,7 @@
             // 
             this.cbb_LopPhuTrach.FormattingEnabled = true;
             this.cbb_LopPhuTrach.Location = new System.Drawing.Point(113, 47);
-            this.cbb_LopPhuTrach.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbb_LopPhuTrach.Margin = new System.Windows.Forms.Padding(4);
             this.cbb_LopPhuTrach.Name = "cbb_LopPhuTrach";
             this.cbb_LopPhuTrach.Size = new System.Drawing.Size(160, 26);
             this.cbb_LopPhuTrach.TabIndex = 28;
@@ -217,7 +217,7 @@
             // num_SoTiet
             // 
             this.num_SoTiet.Location = new System.Drawing.Point(115, 95);
-            this.num_SoTiet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num_SoTiet.Margin = new System.Windows.Forms.Padding(4);
             this.num_SoTiet.Name = "num_SoTiet";
             this.num_SoTiet.Size = new System.Drawing.Size(160, 24);
             this.num_SoTiet.TabIndex = 26;
@@ -235,7 +235,7 @@
             // 
             this.cbb_MonHoc.FormattingEnabled = true;
             this.cbb_MonHoc.Location = new System.Drawing.Point(116, 4);
-            this.cbb_MonHoc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbb_MonHoc.Margin = new System.Windows.Forms.Padding(4);
             this.cbb_MonHoc.Name = "cbb_MonHoc";
             this.cbb_MonHoc.Size = new System.Drawing.Size(160, 26);
             this.cbb_MonHoc.TabIndex = 24;
@@ -255,7 +255,7 @@
             this.cbbKeHoach.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.cbbKeHoach.FormattingEnabled = true;
             this.cbbKeHoach.Location = new System.Drawing.Point(112, 84);
-            this.cbbKeHoach.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbbKeHoach.Margin = new System.Windows.Forms.Padding(4);
             this.cbbKeHoach.Name = "cbbKeHoach";
             this.cbbKeHoach.Size = new System.Drawing.Size(227, 26);
             this.cbbKeHoach.TabIndex = 22;
@@ -275,7 +275,7 @@
             this.cbb_MucUuTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.cbb_MucUuTien.FormattingEnabled = true;
             this.cbb_MucUuTien.Location = new System.Drawing.Point(515, 84);
-            this.cbb_MucUuTien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbb_MucUuTien.Margin = new System.Windows.Forms.Padding(4);
             this.cbb_MucUuTien.Name = "cbb_MucUuTien";
             this.cbb_MucUuTien.Size = new System.Drawing.Size(160, 26);
             this.cbb_MucUuTien.TabIndex = 20;
@@ -295,7 +295,7 @@
             this.cbb_Loai.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.cbb_Loai.FormattingEnabled = true;
             this.cbb_Loai.Location = new System.Drawing.Point(112, 145);
-            this.cbb_Loai.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbb_Loai.Margin = new System.Windows.Forms.Padding(4);
             this.cbb_Loai.Name = "cbb_Loai";
             this.cbb_Loai.Size = new System.Drawing.Size(227, 26);
             this.cbb_Loai.TabIndex = 18;
@@ -306,7 +306,7 @@
             this.dtp_HanChot.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.dtp_HanChot.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtp_HanChot.Location = new System.Drawing.Point(515, 17);
-            this.dtp_HanChot.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtp_HanChot.Margin = new System.Windows.Forms.Padding(4);
             this.dtp_HanChot.Name = "dtp_HanChot";
             this.dtp_HanChot.Size = new System.Drawing.Size(160, 24);
             this.dtp_HanChot.TabIndex = 16;
@@ -373,7 +373,9 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FormAddCongViec";
             this.Text = "Tạo công việc mới";
             this.Load += new System.EventHandler(this.FormAddCongViec_Load);

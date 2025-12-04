@@ -63,7 +63,7 @@
             // txt_TenMonHoc
             // 
             this.txt_TenMonHoc.Location = new System.Drawing.Point(143, 98);
-            this.txt_TenMonHoc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_TenMonHoc.Margin = new System.Windows.Forms.Padding(4);
             this.txt_TenMonHoc.Name = "txt_TenMonHoc";
             this.txt_TenMonHoc.Size = new System.Drawing.Size(456, 22);
             this.txt_TenMonHoc.TabIndex = 9;
@@ -183,7 +183,7 @@
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormMonHoc_GV";
-            this.Text = "FormMonHoc_GV";
+            this.Text = "Danh sách môn học";
             this.Load += new System.EventHandler(this.FormMonHoc_GV_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

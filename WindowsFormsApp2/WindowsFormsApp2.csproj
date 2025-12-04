@@ -719,18 +719,11 @@
     <Content Include="bin\Debug\SQLQuery2.sql" />
     <Content Include="bin\Debug\WindowsFormsApp2.exe" />
     <Content Include="bin\Debug\WindowsFormsApp2.pdb" />
-    <Content Include="Database1_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>Database1.mdf</DependentUpon>
-    </Content>
     <None Include="Resources\Futuristic-3D-Abstract-Polygonal-Lines-and-Big-Data-Technology-on_11540053_wh300.jpg" />
     <None Include="Resources\làm việc nhóm.jpg" />
     <None Include="Resources\ky-nang-lam-viec-nhom-6.jpg" />
     <None Include="Resources\ChatGPT Image Nov 16, 2025, 10_58_14 PM.png" />
     <None Include="Resources\ChatGPT Image Nov 16, 2025, 11_00_36 PM.png" />
-    <None Include="Database1.mdf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\DevExpress.Data.25.1.6\analyzers\dotnet\DevExpress.Generator.dll" />

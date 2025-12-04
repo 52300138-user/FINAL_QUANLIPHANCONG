@@ -44,12 +44,12 @@
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllHeaders;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(33, 65);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Location = new System.Drawing.Point(44, 80);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(452, 274);
+            this.dataGridView1.Size = new System.Drawing.Size(603, 337);
             this.dataGridView1.TabIndex = 60;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
@@ -59,10 +59,9 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label5.Location = new System.Drawing.Point(178, 19);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(237, 23);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(160, 25);
+            this.label5.Size = new System.Drawing.Size(207, 29);
             this.label5.TabIndex = 59;
             this.label5.Text = "Chi tiết công việc";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -77,10 +76,10 @@
             this.button_them.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button_them.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold);
             this.button_them.ForeColor = System.Drawing.Color.White;
-            this.button_them.Location = new System.Drawing.Point(509, 54);
-            this.button_them.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_them.Location = new System.Drawing.Point(679, 66);
+            this.button_them.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_them.Name = "button_them";
-            this.button_them.Size = new System.Drawing.Size(82, 28);
+            this.button_them.Size = new System.Drawing.Size(109, 34);
             this.button_them.TabIndex = 61;
             this.button_them.Text = "Thêm";
             this.button_them.Click += new System.EventHandler(this.button_them_Click_1);
@@ -95,10 +94,10 @@
             this.button_sua.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.button_sua.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold);
             this.button_sua.ForeColor = System.Drawing.Color.White;
-            this.button_sua.Location = new System.Drawing.Point(509, 119);
-            this.button_sua.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_sua.Location = new System.Drawing.Point(679, 146);
+            this.button_sua.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_sua.Name = "button_sua";
-            this.button_sua.Size = new System.Drawing.Size(82, 28);
+            this.button_sua.Size = new System.Drawing.Size(109, 34);
             this.button_sua.TabIndex = 62;
             this.button_sua.Text = "Sửa";
             this.button_sua.Visible = false;
@@ -114,10 +113,10 @@
             this.button_xoa.FillColor = System.Drawing.Color.Red;
             this.button_xoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold);
             this.button_xoa.ForeColor = System.Drawing.Color.White;
-            this.button_xoa.Location = new System.Drawing.Point(509, 185);
-            this.button_xoa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_xoa.Location = new System.Drawing.Point(679, 228);
+            this.button_xoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_xoa.Name = "button_xoa";
-            this.button_xoa.Size = new System.Drawing.Size(82, 28);
+            this.button_xoa.Size = new System.Drawing.Size(109, 34);
             this.button_xoa.TabIndex = 63;
             this.button_xoa.Text = "Xóa";
             this.button_xoa.Visible = false;
@@ -125,15 +124,18 @@
             // 
             // ChiTietPlan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button_xoa);
             this.Controls.Add(this.button_sua);
             this.Controls.Add(this.button_them);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label5);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "ChiTietPlan";
             this.Text = "Chi tiết công việc";
             this.Load += new System.EventHandler(this.ChiTietPlan_Load);

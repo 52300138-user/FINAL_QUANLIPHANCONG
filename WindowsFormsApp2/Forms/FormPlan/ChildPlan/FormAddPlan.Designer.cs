@@ -176,6 +176,8 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FormAddPlan";
             this.Text = "Thêm kế hoạch mới";
             this.Load += new System.EventHandler(this.FormAddPlan_Load);

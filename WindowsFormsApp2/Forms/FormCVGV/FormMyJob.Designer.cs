@@ -195,7 +195,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel1);
             this.Name = "FormMyJob";
-            this.Text = "FormMyJob";
+            this.Text = "Công việc của tôi";
             this.Load += new System.EventHandler(this.FormMyJob_Load);
             this.panel1.ResumeLayout(false);
             this.panel5.ResumeLayout(false);

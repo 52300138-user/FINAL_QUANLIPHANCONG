@@ -1558,8 +1558,6 @@ D:\2526_HK1\HK1_CNPM\CuoiKy\2.12.25\Project\WindowsFormsApp2\WindowsFormsApp2\bi
 D:\2526_HK1\HK1_CNPM\CuoiKy\2.12.25\Project\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Forms.Auth.FormConfigSQL.resources
 D:\2526_HK1\HK1_CNPM\CuoiKy\2.12.25\Project\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\App.config
 D:\2526_HK1\HK1_CNPM\CuoiKy\4.12.25\Project\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\App.config
-D:\2526_HK1\HK1_CNPM\CuoiKy\4.12.25\Project\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\Database1.mdf
-D:\2526_HK1\HK1_CNPM\CuoiKy\4.12.25\Project\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\Database1_log.ldf
 D:\2526_HK1\HK1_CNPM\CuoiKy\4.12.25\Project\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
 D:\2526_HK1\HK1_CNPM\CuoiKy\4.12.25\Project\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
 D:\2526_HK1\HK1_CNPM\CuoiKy\4.12.25\Project\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb

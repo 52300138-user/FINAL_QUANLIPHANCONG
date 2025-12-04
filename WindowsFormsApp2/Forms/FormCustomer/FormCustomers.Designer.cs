@@ -139,11 +139,12 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label5.Location = new System.Drawing.Point(12, 9);
+            this.label5.Location = new System.Drawing.Point(218, 21);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(266, 29);
             this.label5.TabIndex = 40;
             this.label5.Text = "Danh sách người dùng";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // button_them
@@ -256,7 +257,7 @@
             this.Controls.Add(this.label5);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormCustomers";
-            this.Text = "FormCustomers";
+            this.Text = "Danh sách người dùng";
             this.Load += new System.EventHandler(this.FormCustomers_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

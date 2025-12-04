@@ -146,7 +146,6 @@
             this.TinChi_LTH.Name = "TinChi_LTH";
             this.TinChi_LTH.Size = new System.Drawing.Size(231, 32);
             this.TinChi_LTH.TabIndex = 12;
-            
             // 
             // label7
             // 
@@ -358,7 +357,6 @@
             this.TinChi_TH.Name = "TinChi_TH";
             this.TinChi_TH.Size = new System.Drawing.Size(231, 32);
             this.TinChi_TH.TabIndex = 14;
-            
             // 
             // label11
             // 
@@ -449,7 +447,7 @@
             // txt_TenTo
             // 
             this.txt_TenTo.Location = new System.Drawing.Point(651, 143);
-            this.txt_TenTo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_TenTo.Margin = new System.Windows.Forms.Padding(4);
             this.txt_TenTo.Name = "txt_TenTo";
             this.txt_TenTo.Size = new System.Drawing.Size(132, 22);
             this.txt_TenTo.TabIndex = 12;
@@ -457,7 +455,7 @@
             // txt_TenNhom
             // 
             this.txt_TenNhom.Location = new System.Drawing.Point(651, 78);
-            this.txt_TenNhom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_TenNhom.Margin = new System.Windows.Forms.Padding(4);
             this.txt_TenNhom.Name = "txt_TenNhom";
             this.txt_TenNhom.Size = new System.Drawing.Size(132, 22);
             this.txt_TenNhom.TabIndex = 11;
@@ -646,9 +644,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 534);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FormEditMonHoc";
-            this.Text = "FormEditMonHoc";
+            this.Text = "Chỉnh sửa thông tin môn học";
             this.Load += new System.EventHandler(this.FormEditMonHoc_Load);
             this.Shown += new System.EventHandler(this.FormEditMonHoc_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();

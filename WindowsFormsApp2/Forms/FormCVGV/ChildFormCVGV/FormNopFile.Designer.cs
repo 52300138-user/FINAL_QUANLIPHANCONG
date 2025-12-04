@@ -58,24 +58,26 @@
             // 
             // btnCancel
             // 
+            this.btnCancel.BackColor = System.Drawing.Color.Red;
             this.btnCancel.Location = new System.Drawing.Point(525, 208);
             this.btnCancel.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(100, 28);
             this.btnCancel.TabIndex = 3;
             this.btnCancel.Text = "Hủy";
-            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.UseVisualStyleBackColor = false;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnNopKetQua
             // 
+            this.btnNopKetQua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnNopKetQua.Location = new System.Drawing.Point(271, 208);
             this.btnNopKetQua.Margin = new System.Windows.Forms.Padding(4);
             this.btnNopKetQua.Name = "btnNopKetQua";
             this.btnNopKetQua.Size = new System.Drawing.Size(100, 28);
             this.btnNopKetQua.TabIndex = 2;
             this.btnNopKetQua.Text = "Nộp";
-            this.btnNopKetQua.UseVisualStyleBackColor = true;
+            this.btnNopKetQua.UseVisualStyleBackColor = false;
             this.btnNopKetQua.Click += new System.EventHandler(this.btnNopKetQua_Click);
             // 
             // FormNopFile
@@ -89,6 +91,8 @@
             this.Controls.Add(this.btnChonFile);
             this.Controls.Add(this.lbl_File);
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FormNopFile";
             this.Text = "Nộp File Báo Cáo";
             this.Load += new System.EventHandler(this.FormNopFile_Load);

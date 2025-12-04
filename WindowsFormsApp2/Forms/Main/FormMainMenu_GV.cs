@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
+using WindowsFormsApp2.BUS;
 using WindowsFormsApp2.Common;
 
 namespace WindowsFormsApp2.Forms.Main
@@ -147,6 +148,7 @@ namespace WindowsFormsApp2.Forms.Main
         private void FormMainMenu_GV_Load(object sender, EventArgs e)
         {
             this.StartPosition = FormStartPosition.CenterScreen;
+            SetGreetingLabel();
         }
 
         protected override void OnShown(EventArgs e)
@@ -166,7 +168,24 @@ namespace WindowsFormsApp2.Forms.Main
 
             OpenChildForm(new Forms.FormSetting.FormSetting(), sender);
         }
-        
+
+        private void SetGreetingLabel()
+        {
+            int userid = Program.CurrentUserId;
+            string username = UsersBUS.GetUserById(userid).UserName;
+            int hour = DateTime.Now.Hour;
+
+            string timeGreeting;
+
+            if (hour < 12)
+                timeGreeting = "buổi sáng";
+            else if (hour < 18)
+                timeGreeting = "buổi chiều";
+            else
+                timeGreeting = "buổi tối";
+
+            label1.Text = $"Xin chào {username}, chúc bạn {timeGreeting} tốt lành!";
+        }
 
         private void panelTitleBar_Paint(object sender, PaintEventArgs e)
         {
@@ -210,6 +229,25 @@ namespace WindowsFormsApp2.Forms.Main
         private void button1_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.FormMHGV.FormMonHoc_GV(), sender);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            var confirm = MessageBox.Show(
+                "Bạn có chắc chắn muốn Đăng xuất và trở về màn hình Đăng nhập không?",
+                "Xác nhận Đăng xuất",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question
+            );
+
+            if (confirm == DialogResult.Yes)
+            {
+                // 1. Đặt cờ cho Program.cs
+                this.DialogResult = DialogResult.Retry;
+
+                // 2. Đóng form hiện tại (kích hoạt Application.Run trong Program.cs kết thúc)
+                this.Close();
+            }
         }
     }
 }

@@ -115,7 +115,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(769, 482);
+            this.panel1.Size = new System.Drawing.Size(926, 482);
             this.panel1.TabIndex = 0;
             // 
             // panel7
@@ -125,7 +125,7 @@
             this.panel7.Location = new System.Drawing.Point(0, 231);
             this.panel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(769, 251);
+            this.panel7.Size = new System.Drawing.Size(926, 251);
             this.panel7.TabIndex = 2;
             // 
             // panel10
@@ -136,7 +136,7 @@
             this.panel10.Location = new System.Drawing.Point(0, 0);
             this.panel10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(769, 251);
+            this.panel10.Size = new System.Drawing.Size(926, 251);
             this.panel10.TabIndex = 1;
             // 
             // panel11
@@ -146,7 +146,7 @@
             this.panel11.Location = new System.Drawing.Point(315, 0);
             this.panel11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(454, 251);
+            this.panel11.Size = new System.Drawing.Size(611, 251);
             this.panel11.TabIndex = 1;
             // 
             // dataGridView1
@@ -174,7 +174,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(454, 251);
+            this.dataGridView1.Size = new System.Drawing.Size(611, 251);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
@@ -356,7 +356,7 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(769, 190);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(926, 190);
             this.tableLayoutPanel1.TabIndex = 1;
             this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
@@ -365,10 +365,10 @@
             this.panel6.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel6.Controls.Add(this.chart4);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel6.Location = new System.Drawing.Point(576, 0);
+            this.panel6.Location = new System.Drawing.Point(693, 0);
             this.panel6.Margin = new System.Windows.Forms.Padding(0, 0, 11, 10);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(182, 180);
+            this.panel6.Size = new System.Drawing.Size(222, 180);
             this.panel6.TabIndex = 5;
             // 
             // chart4
@@ -387,7 +387,7 @@
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.chart4.Series.Add(series1);
-            this.chart4.Size = new System.Drawing.Size(182, 180);
+            this.chart4.Size = new System.Drawing.Size(222, 180);
             this.chart4.TabIndex = 1;
             this.chart4.Text = "chart4";
             this.chart4.Click += new System.EventHandler(this.chart4_Click);
@@ -397,10 +397,10 @@
             this.panel5.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel5.Controls.Add(this.chart3);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(384, 0);
+            this.panel5.Location = new System.Drawing.Point(462, 0);
             this.panel5.Margin = new System.Windows.Forms.Padding(0, 0, 11, 10);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(181, 180);
+            this.panel5.Size = new System.Drawing.Size(220, 180);
             this.panel5.TabIndex = 4;
             // 
             // chart3
@@ -419,7 +419,7 @@
             series2.Legend = "Legend1";
             series2.Name = "Series1";
             this.chart3.Series.Add(series2);
-            this.chart3.Size = new System.Drawing.Size(181, 180);
+            this.chart3.Size = new System.Drawing.Size(220, 180);
             this.chart3.TabIndex = 3;
             this.chart3.Text = "chart3";
             // 
@@ -429,10 +429,10 @@
             this.panel4.Controls.Add(this.chart2);
             this.panel4.Controls.Add(this.chart1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(192, 0);
+            this.panel4.Location = new System.Drawing.Point(231, 0);
             this.panel4.Margin = new System.Windows.Forms.Padding(0, 0, 11, 10);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(181, 180);
+            this.panel4.Size = new System.Drawing.Size(220, 180);
             this.panel4.TabIndex = 3;
             // 
             // chart2
@@ -451,7 +451,7 @@
             series3.Legend = "Legend1";
             series3.Name = "Series1";
             this.chart2.Series.Add(series3);
-            this.chart2.Size = new System.Drawing.Size(181, 180);
+            this.chart2.Size = new System.Drawing.Size(220, 180);
             this.chart2.TabIndex = 1;
             this.chart2.Text = "chart2";
             this.chart2.Click += new System.EventHandler(this.chart2_Click);
@@ -483,7 +483,7 @@
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Margin = new System.Windows.Forms.Padding(0, 0, 11, 10);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(181, 180);
+            this.panel3.Size = new System.Drawing.Size(220, 180);
             this.panel3.TabIndex = 2;
             // 
             // label4
@@ -506,7 +506,7 @@
             this.panel8.Location = new System.Drawing.Point(0, 0);
             this.panel8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(181, 36);
+            this.panel8.Size = new System.Drawing.Size(220, 36);
             this.panel8.TabIndex = 0;
             // 
             // label2
@@ -533,7 +533,7 @@
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(769, 41);
+            this.panel2.Size = new System.Drawing.Size(926, 41);
             this.panel2.TabIndex = 0;
             // 
             // btn_Them
@@ -542,7 +542,7 @@
             this.btn_Them.Location = new System.Drawing.Point(172, 2);
             this.btn_Them.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_Them.Name = "btn_Them";
-            this.btn_Them.Size = new System.Drawing.Size(145, 34);
+            this.btn_Them.Size = new System.Drawing.Size(163, 34);
             this.btn_Them.TabIndex = 11;
             this.btn_Them.Text = "Thêm";
             this.btn_Them.UseVisualStyleBackColor = false;
@@ -551,10 +551,10 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button5.Location = new System.Drawing.Point(789, 2);
+            this.button5.Location = new System.Drawing.Point(677, 3);
             this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(47, 32);
+            this.button5.Size = new System.Drawing.Size(163, 34);
             this.button5.TabIndex = 10;
             this.button5.Text = "Xóa";
             this.button5.UseVisualStyleBackColor = false;
@@ -563,10 +563,10 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button4.Location = new System.Drawing.Point(507, 4);
+            this.button4.Location = new System.Drawing.Point(508, 3);
             this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(129, 32);
+            this.button4.Size = new System.Drawing.Size(163, 34);
             this.button4.TabIndex = 9;
             this.button4.Text = "Chi Tiết";
             this.button4.UseVisualStyleBackColor = false;
@@ -578,7 +578,7 @@
             this.button3.Location = new System.Drawing.Point(339, 2);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(141, 32);
+            this.button3.Size = new System.Drawing.Size(163, 34);
             this.button3.TabIndex = 8;
             this.button3.Text = "Sửa";
             this.button3.UseVisualStyleBackColor = false;
@@ -607,7 +607,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(769, 482);
+            this.ClientSize = new System.Drawing.Size(926, 482);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormOrders";

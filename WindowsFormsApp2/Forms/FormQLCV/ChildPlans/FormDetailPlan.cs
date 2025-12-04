@@ -318,5 +318,10 @@ namespace WindowsFormsApp2.Forms.FormQLCV.ChildPlans
         {
             this.Close();
         }
+
+        private void txt_SDT_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -51,6 +51,7 @@
             System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.btn_BaoCao = new System.Windows.Forms.Button();
             this.btn_MyJob = new System.Windows.Forms.Button();
             this.btn_setting = new System.Windows.Forms.Button();
             this.btnNotifications = new System.Windows.Forms.Button();
@@ -112,7 +113,6 @@
             this.oDataInstantFeedbackSource1 = new DevExpress.Data.ODataLinq.ODataInstantFeedbackSource();
             this.oDataInstantFeedbackSource2 = new DevExpress.Data.ODataLinq.ODataInstantFeedbackSource();
             this.xpBindingSource1 = new DevExpress.Xpo.XPBindingSource(this.components);
-            this.btn_BaoCao = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
@@ -169,6 +169,27 @@
             this.panelMenu.Size = new System.Drawing.Size(220, 626);
             this.panelMenu.TabIndex = 0;
             // 
+            // btn_BaoCao
+            // 
+            this.btn_BaoCao.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_BaoCao.FlatAppearance.BorderSize = 0;
+            this.btn_BaoCao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_BaoCao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_BaoCao.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btn_BaoCao.Image = global::WindowsFormsApp2.Properties.Resources.alarm__1_;
+            this.btn_BaoCao.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_BaoCao.Location = new System.Drawing.Point(0, 592);
+            this.btn_BaoCao.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_BaoCao.Name = "btn_BaoCao";
+            this.btn_BaoCao.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.btn_BaoCao.Size = new System.Drawing.Size(220, 63);
+            this.btn_BaoCao.TabIndex = 9;
+            this.btn_BaoCao.Text = " Báo Cáo";
+            this.btn_BaoCao.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_BaoCao.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_BaoCao.UseVisualStyleBackColor = true;
+            this.btn_BaoCao.Click += new System.EventHandler(this.btn_BaoCao_Click);
+            // 
             // btn_MyJob
             // 
             this.btn_MyJob.Dock = System.Windows.Forms.DockStyle.Top;
@@ -205,7 +226,7 @@
             this.btn_setting.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.btn_setting.Size = new System.Drawing.Size(220, 66);
             this.btn_setting.TabIndex = 7;
-            this.btn_setting.Text = "   Cài Đặt";
+            this.btn_setting.Text = " Cài Đặt";
             this.btn_setting.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_setting.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_setting.UseVisualStyleBackColor = true;
@@ -226,7 +247,7 @@
             this.btnNotifications.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.btnNotifications.Size = new System.Drawing.Size(220, 63);
             this.btnNotifications.TabIndex = 5;
-            this.btnNotifications.Text = "Duyệt Công Việc";
+            this.btnNotifications.Text = " Duyệt Công Việc";
             this.btnNotifications.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNotifications.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnNotifications.UseVisualStyleBackColor = true;
@@ -247,7 +268,7 @@
             this.btnReporting.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.btnReporting.Size = new System.Drawing.Size(220, 69);
             this.btnReporting.TabIndex = 4;
-            this.btnReporting.Text = "Quản Lý Kế Hoạch";
+            this.btnReporting.Text = " Quản Lý Kế Hoạch";
             this.btnReporting.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnReporting.UseVisualStyleBackColor = true;
             this.btnReporting.Click += new System.EventHandler(this.btnReporting_Click);
@@ -267,7 +288,7 @@
             this.btnCustomer.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.btnCustomer.Size = new System.Drawing.Size(220, 76);
             this.btnCustomer.TabIndex = 3;
-            this.btnCustomer.Text = "   Quản lý người dùng";
+            this.btnCustomer.Text = " Quản lý người dùng";
             this.btnCustomer.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCustomer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCustomer.UseVisualStyleBackColor = true;
@@ -288,7 +309,7 @@
             this.btnOrders.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.btnOrders.Size = new System.Drawing.Size(220, 79);
             this.btnOrders.TabIndex = 2;
-            this.btnOrders.Text = "Tiến Độ Công Việc";
+            this.btnOrders.Text = " Tiến Độ Công Việc";
             this.btnOrders.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnOrders.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnOrders.UseVisualStyleBackColor = true;
@@ -309,7 +330,7 @@
             this.btnProducts.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.btnProducts.Size = new System.Drawing.Size(220, 78);
             this.btnProducts.TabIndex = 1;
-            this.btnProducts.Text = "Quản Lí Môn Học";
+            this.btnProducts.Text = " Quản Lí Môn Học";
             this.btnProducts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProducts.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnProducts.UseVisualStyleBackColor = true;
@@ -425,9 +446,9 @@
             this.lblTitle.ForeColor = System.Drawing.Color.White;
             this.lblTitle.Location = new System.Drawing.Point(349, 30);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(78, 26);
+            this.lblTitle.Size = new System.Drawing.Size(142, 26);
             this.lblTitle.TabIndex = 0;
-            this.lblTitle.Text = "HOME";
+            this.lblTitle.Text = "TRANG CHỦ";
             // 
             // panelDesktopPanel
             // 
@@ -928,27 +949,6 @@
             this.gunaAreaDataset2.FillColor = System.Drawing.Color.Empty;
             this.gunaAreaDataset2.Label = "Area1";
             this.gunaAreaDataset2.PointStyle = Guna.Charts.WinForms.PointStyle.Star;
-            // 
-            // btn_BaoCao
-            // 
-            this.btn_BaoCao.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_BaoCao.FlatAppearance.BorderSize = 0;
-            this.btn_BaoCao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_BaoCao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btn_BaoCao.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btn_BaoCao.Image = global::WindowsFormsApp2.Properties.Resources.alarm__1_;
-            this.btn_BaoCao.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_BaoCao.Location = new System.Drawing.Point(0, 592);
-            this.btn_BaoCao.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btn_BaoCao.Name = "btn_BaoCao";
-            this.btn_BaoCao.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btn_BaoCao.Size = new System.Drawing.Size(220, 63);
-            this.btn_BaoCao.TabIndex = 9;
-            this.btn_BaoCao.Text = "Báo Cáo";
-            this.btn_BaoCao.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_BaoCao.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_BaoCao.UseVisualStyleBackColor = true;
-            this.btn_BaoCao.Click += new System.EventHandler(this.btn_BaoCao_Click);
             // 
             // FormMainMenu
             // 

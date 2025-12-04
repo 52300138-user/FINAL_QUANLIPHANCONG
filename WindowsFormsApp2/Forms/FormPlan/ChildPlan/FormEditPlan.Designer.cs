@@ -80,7 +80,7 @@
             this.cbb_Loai.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.cbb_Loai.FormattingEnabled = true;
             this.cbb_Loai.Location = new System.Drawing.Point(155, 127);
-            this.cbb_Loai.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbb_Loai.Margin = new System.Windows.Forms.Padding(4);
             this.cbb_Loai.Name = "cbb_Loai";
             this.cbb_Loai.Size = new System.Drawing.Size(157, 26);
             this.cbb_Loai.TabIndex = 18;
@@ -90,7 +90,7 @@
             this.NgayKetThuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.NgayKetThuc.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.NgayKetThuc.Location = new System.Drawing.Point(500, 124);
-            this.NgayKetThuc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NgayKetThuc.Margin = new System.Windows.Forms.Padding(4);
             this.NgayKetThuc.Name = "NgayKetThuc";
             this.NgayKetThuc.Size = new System.Drawing.Size(174, 24);
             this.NgayKetThuc.TabIndex = 17;
@@ -100,7 +100,7 @@
             this.NgayBatDau.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.NgayBatDau.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.NgayBatDau.Location = new System.Drawing.Point(500, 67);
-            this.NgayBatDau.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NgayBatDau.Margin = new System.Windows.Forms.Padding(4);
             this.NgayBatDau.Name = "NgayBatDau";
             this.NgayBatDau.Size = new System.Drawing.Size(174, 24);
             this.NgayBatDau.TabIndex = 16;
@@ -175,7 +175,9 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FormEditPlan";
             this.Text = "Chỉnh sửa kế hoạch";
             this.Load += new System.EventHandler(this.FormEditPlan_Load);

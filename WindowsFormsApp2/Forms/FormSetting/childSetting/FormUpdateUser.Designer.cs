@@ -265,8 +265,10 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FormUpdateUser";
-            this.Text = "UpdateUser";
+            this.Text = "Cập nhật thông tin";
             this.Load += new System.EventHandler(this.UpdateUser_Load);
             this.Shown += new System.EventHandler(this.FormUpdateUser_Shown);
             this.panel1.ResumeLayout(false);

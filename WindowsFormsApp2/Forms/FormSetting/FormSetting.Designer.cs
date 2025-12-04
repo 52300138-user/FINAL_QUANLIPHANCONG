@@ -42,7 +42,7 @@
             this.panel1.Controls.Add(this.btn_CapNhat);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(769, 482);
             this.panel1.TabIndex = 36;
@@ -97,7 +97,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormSetting";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "FormSetting";
+            this.Text = "Cài đặt";
             this.Load += new System.EventHandler(this.FormSetting_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);

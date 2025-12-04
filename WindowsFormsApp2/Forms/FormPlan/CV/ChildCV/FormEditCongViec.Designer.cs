@@ -372,6 +372,8 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FormEditCongViec";
             this.Text = "Chỉnh sửa công việc";
             this.Load += new System.EventHandler(this.FormEditCongViec_Load);
