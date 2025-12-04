@@ -17,6 +17,8 @@ namespace WindowsFormsApp2.Forms.FormCVGV.ChildFormCVGV
         public FormGiveBack()
         {
             InitializeComponent();
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
         }
 
         private void FormGiveBack_Load(object sender, EventArgs e)

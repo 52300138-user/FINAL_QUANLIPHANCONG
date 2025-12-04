@@ -23,6 +23,10 @@ namespace WindowsFormsApp2.Forms.FormBangDiem
             InitializeComponent();
             this.AutoScaleMode = AutoScaleMode.None;
             this.AutoSize = false;
+            this.Dock = DockStyle.Fill;
+            this.TopLevel = false;
+            this.FormBorderStyle = FormBorderStyle.None;
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
 
         private void LoadTheme()
@@ -239,6 +243,11 @@ namespace WindowsFormsApp2.Forms.FormBangDiem
             {
                 MessageBox.Show("Lỗi tải file: " + ex.Message, "Lỗi");
             }
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
 
         //protected override void OnShown(EventArgs e)

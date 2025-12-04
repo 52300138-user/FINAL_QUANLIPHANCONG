@@ -16,6 +16,8 @@ namespace WindowsFormsApp2.Forms.FormCVGV.ChildFormCVGV
         public FormWorded()
         {
             InitializeComponent();
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -27,6 +29,7 @@ namespace WindowsFormsApp2.Forms.FormCVGV.ChildFormCVGV
         {
             SetupGrid();
             LoadData();
+
         }
         private void SetupGrid()
         {

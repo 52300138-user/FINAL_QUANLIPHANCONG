@@ -18,6 +18,7 @@ namespace WindowsFormsApp2.Forms.FormCVGV.ChildFormCVGV
         {
             InitializeComponent();
             button_Nop.Visible = false;
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
         }
         private void SetupDataGridView()

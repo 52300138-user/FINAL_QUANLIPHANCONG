@@ -679,15 +679,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\In ấn.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\unlock.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\user.png" />
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
@@ -700,17 +691,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ChatGPT Image 08_31_37 4 thg 10, 2025.png" />
-    <None Include="Resources\cross-out %282%29.png" />
-    <None Include="Resources\shopping-list.png" />
-    <None Include="Resources\value.png" />
-    <None Include="Resources\settings.png" />
-    <None Include="Resources\alarm %281%29.png" />
-    <None Include="Resources\bar-chart.png" />
-    <None Include="Resources\value %281%29.png" />
-    <None Include="Resources\shopping-cart %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="bin\Release\" />
   </ItemGroup>
   <ItemGroup>
@@ -719,11 +699,30 @@
     <Content Include="bin\Debug\SQLQuery2.sql" />
     <Content Include="bin\Debug\WindowsFormsApp2.exe" />
     <Content Include="bin\Debug\WindowsFormsApp2.pdb" />
-    <None Include="Resources\Futuristic-3D-Abstract-Polygonal-Lines-and-Big-Data-Technology-on_11540053_wh300.jpg" />
-    <None Include="Resources\làm việc nhóm.jpg" />
-    <None Include="Resources\ky-nang-lam-viec-nhom-6.jpg" />
-    <None Include="Resources\ChatGPT Image Nov 16, 2025, 10_58_14 PM.png" />
-    <None Include="Resources\ChatGPT Image Nov 16, 2025, 11_00_36 PM.png" />
+    <Content Include="Resources\alarm %281%29.png" />
+    <None Include="Resources\baocao.png" />
+    <Content Include="Resources\bar-chart.png" />
+    <None Include="Resources\bk1.png" />
+    <Content Include="Resources\book.png" />
+    <Content Include="Resources\ChatGPT Image 08_31_37 4 thg 10, 2025.png" />
+    <Content Include="Resources\ChatGPT Image Nov 16, 2025, 10_58_14 PM.png" />
+    <Content Include="Resources\ChatGPT Image Nov 16, 2025, 11_00_36 PM.png" />
+    <Content Include="Resources\cross-out %282%29.png" />
+    <None Include="Resources\cvct.png" />
+    <Content Include="Resources\Futuristic-3D-Abstract-Polygonal-Lines-and-Big-Data-Technology-on_11540053_wh300.jpg" />
+    <Content Include="Resources\ky-nang-lam-viec-nhom-6.jpg" />
+    <Content Include="Resources\lam_viec_nhom.jpg" />
+    <Content Include="Resources\print.jpg" />
+    <Content Include="Resources\reports.png" />
+    <Content Include="Resources\settings.png" />
+    <Content Include="Resources\shopping-cart %281%29.png" />
+    <Content Include="Resources\shopping-list.png" />
+    <Content Include="Resources\unlock.png" />
+    <Content Include="Resources\user.png" />
+    <None Include="Resources\user1.png" />
+    <Content Include="Resources\value %281%29.png" />
+    <Content Include="Resources\value.png" />
+    <Content Include="Resources\work.png" />
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\DevExpress.Data.25.1.6\analyzers\dotnet\DevExpress.Generator.dll" />

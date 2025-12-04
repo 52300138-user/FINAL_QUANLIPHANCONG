@@ -21,6 +21,8 @@ namespace WindowsFormsApp2.Forms.FormCVGV.ChildFormCVGV
             // Gán sự kiện cho Grid và các nút hành động
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect; // Chọn cả hàng
             dataGridView1.ReadOnly = true;
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
         }
         private void SetupDataGridView()
         {

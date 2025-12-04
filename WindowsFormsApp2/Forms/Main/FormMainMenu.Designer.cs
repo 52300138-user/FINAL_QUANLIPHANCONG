@@ -51,20 +51,11 @@
             System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.btn_BaoCao = new System.Windows.Forms.Button();
-            this.btn_MyJob = new System.Windows.Forms.Button();
-            this.btn_setting = new System.Windows.Forms.Button();
-            this.btnNotifications = new System.Windows.Forms.Button();
-            this.btnReporting = new System.Windows.Forms.Button();
-            this.btnCustomer = new System.Windows.Forms.Button();
-            this.btnOrders = new System.Windows.Forms.Button();
-            this.btnProducts = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.panelTitleBar = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.btnCloseChildForm = new System.Windows.Forms.Button();
             this.guna2ControlBox4 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.lblTitle = new System.Windows.Forms.Label();
@@ -113,6 +104,15 @@
             this.oDataInstantFeedbackSource1 = new DevExpress.Data.ODataLinq.ODataInstantFeedbackSource();
             this.oDataInstantFeedbackSource2 = new DevExpress.Data.ODataLinq.ODataInstantFeedbackSource();
             this.xpBindingSource1 = new DevExpress.Xpo.XPBindingSource(this.components);
+            this.btnCloseChildForm = new System.Windows.Forms.Button();
+            this.btn_BaoCao = new System.Windows.Forms.Button();
+            this.btn_MyJob = new System.Windows.Forms.Button();
+            this.btn_setting = new System.Windows.Forms.Button();
+            this.btnNotifications = new System.Windows.Forms.Button();
+            this.btnReporting = new System.Windows.Forms.Button();
+            this.btnCustomer = new System.Windows.Forms.Button();
+            this.btnOrders = new System.Windows.Forms.Button();
+            this.btnProducts = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
@@ -168,173 +168,6 @@
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(220, 626);
             this.panelMenu.TabIndex = 0;
-            // 
-            // btn_BaoCao
-            // 
-            this.btn_BaoCao.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_BaoCao.FlatAppearance.BorderSize = 0;
-            this.btn_BaoCao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_BaoCao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btn_BaoCao.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btn_BaoCao.Image = global::WindowsFormsApp2.Properties.Resources.alarm__1_;
-            this.btn_BaoCao.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_BaoCao.Location = new System.Drawing.Point(0, 592);
-            this.btn_BaoCao.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btn_BaoCao.Name = "btn_BaoCao";
-            this.btn_BaoCao.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btn_BaoCao.Size = new System.Drawing.Size(220, 63);
-            this.btn_BaoCao.TabIndex = 9;
-            this.btn_BaoCao.Text = " Báo Cáo";
-            this.btn_BaoCao.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_BaoCao.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_BaoCao.UseVisualStyleBackColor = true;
-            this.btn_BaoCao.Click += new System.EventHandler(this.btn_BaoCao_Click);
-            // 
-            // btn_MyJob
-            // 
-            this.btn_MyJob.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_MyJob.FlatAppearance.BorderSize = 0;
-            this.btn_MyJob.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_MyJob.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btn_MyJob.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btn_MyJob.Image = global::WindowsFormsApp2.Properties.Resources.alarm__1_;
-            this.btn_MyJob.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_MyJob.Location = new System.Drawing.Point(0, 529);
-            this.btn_MyJob.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btn_MyJob.Name = "btn_MyJob";
-            this.btn_MyJob.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btn_MyJob.Size = new System.Drawing.Size(220, 63);
-            this.btn_MyJob.TabIndex = 8;
-            this.btn_MyJob.Text = "Công Việc Của Tôi";
-            this.btn_MyJob.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_MyJob.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_MyJob.UseVisualStyleBackColor = true;
-            this.btn_MyJob.Click += new System.EventHandler(this.btn_MyJob_Click);
-            // 
-            // btn_setting
-            // 
-            this.btn_setting.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_setting.FlatAppearance.BorderSize = 0;
-            this.btn_setting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_setting.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btn_setting.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btn_setting.Image = global::WindowsFormsApp2.Properties.Resources.settings;
-            this.btn_setting.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_setting.Location = new System.Drawing.Point(0, 463);
-            this.btn_setting.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btn_setting.Name = "btn_setting";
-            this.btn_setting.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btn_setting.Size = new System.Drawing.Size(220, 66);
-            this.btn_setting.TabIndex = 7;
-            this.btn_setting.Text = " Cài Đặt";
-            this.btn_setting.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_setting.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_setting.UseVisualStyleBackColor = true;
-            this.btn_setting.Click += new System.EventHandler(this.btn_setting_Click);
-            // 
-            // btnNotifications
-            // 
-            this.btnNotifications.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnNotifications.FlatAppearance.BorderSize = 0;
-            this.btnNotifications.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNotifications.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnNotifications.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnNotifications.Image = global::WindowsFormsApp2.Properties.Resources.alarm__1_;
-            this.btnNotifications.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNotifications.Location = new System.Drawing.Point(0, 400);
-            this.btnNotifications.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnNotifications.Name = "btnNotifications";
-            this.btnNotifications.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnNotifications.Size = new System.Drawing.Size(220, 63);
-            this.btnNotifications.TabIndex = 5;
-            this.btnNotifications.Text = " Duyệt Công Việc";
-            this.btnNotifications.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNotifications.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnNotifications.UseVisualStyleBackColor = true;
-            this.btnNotifications.Click += new System.EventHandler(this.btnNotifications_Click);
-            // 
-            // btnReporting
-            // 
-            this.btnReporting.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnReporting.FlatAppearance.BorderSize = 0;
-            this.btnReporting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReporting.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnReporting.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnReporting.Image = global::WindowsFormsApp2.Properties.Resources.bar_chart;
-            this.btnReporting.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReporting.Location = new System.Drawing.Point(0, 331);
-            this.btnReporting.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnReporting.Name = "btnReporting";
-            this.btnReporting.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnReporting.Size = new System.Drawing.Size(220, 69);
-            this.btnReporting.TabIndex = 4;
-            this.btnReporting.Text = " Quản Lý Kế Hoạch";
-            this.btnReporting.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnReporting.UseVisualStyleBackColor = true;
-            this.btnReporting.Click += new System.EventHandler(this.btnReporting_Click);
-            // 
-            // btnCustomer
-            // 
-            this.btnCustomer.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnCustomer.FlatAppearance.BorderSize = 0;
-            this.btnCustomer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnCustomer.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnCustomer.Image = global::WindowsFormsApp2.Properties.Resources.value__1_;
-            this.btnCustomer.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCustomer.Location = new System.Drawing.Point(0, 255);
-            this.btnCustomer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnCustomer.Name = "btnCustomer";
-            this.btnCustomer.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnCustomer.Size = new System.Drawing.Size(220, 76);
-            this.btnCustomer.TabIndex = 3;
-            this.btnCustomer.Text = " Quản lý người dùng";
-            this.btnCustomer.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCustomer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnCustomer.UseVisualStyleBackColor = true;
-            this.btnCustomer.Click += new System.EventHandler(this.btnCustomer_Click);
-            // 
-            // btnOrders
-            // 
-            this.btnOrders.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnOrders.FlatAppearance.BorderSize = 0;
-            this.btnOrders.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOrders.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnOrders.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnOrders.Image = global::WindowsFormsApp2.Properties.Resources.shopping_list;
-            this.btnOrders.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOrders.Location = new System.Drawing.Point(0, 176);
-            this.btnOrders.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnOrders.Name = "btnOrders";
-            this.btnOrders.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnOrders.Size = new System.Drawing.Size(220, 79);
-            this.btnOrders.TabIndex = 2;
-            this.btnOrders.Text = " Tiến Độ Công Việc";
-            this.btnOrders.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOrders.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnOrders.UseVisualStyleBackColor = true;
-            this.btnOrders.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // btnProducts
-            // 
-            this.btnProducts.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnProducts.FlatAppearance.BorderSize = 0;
-            this.btnProducts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProducts.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnProducts.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnProducts.Image = global::WindowsFormsApp2.Properties.Resources.shopping_cart__1_;
-            this.btnProducts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProducts.Location = new System.Drawing.Point(0, 98);
-            this.btnProducts.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnProducts.Name = "btnProducts";
-            this.btnProducts.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnProducts.Size = new System.Drawing.Size(220, 78);
-            this.btnProducts.TabIndex = 1;
-            this.btnProducts.Text = " Quản Lí Môn Học";
-            this.btnProducts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProducts.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnProducts.UseVisualStyleBackColor = true;
-            this.btnProducts.Click += new System.EventHandler(this.btnProducts_Click);
             // 
             // panelLogo
             // 
@@ -398,20 +231,6 @@
             this.guna2ControlBox3.Name = "guna2ControlBox3";
             this.guna2ControlBox3.Size = new System.Drawing.Size(32, 27);
             this.guna2ControlBox3.TabIndex = 31;
-            // 
-            // btnCloseChildForm
-            // 
-            this.btnCloseChildForm.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnCloseChildForm.FlatAppearance.BorderSize = 0;
-            this.btnCloseChildForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCloseChildForm.Image = global::WindowsFormsApp2.Properties.Resources.cross_out__2_;
-            this.btnCloseChildForm.Location = new System.Drawing.Point(0, 0);
-            this.btnCloseChildForm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnCloseChildForm.Name = "btnCloseChildForm";
-            this.btnCloseChildForm.Size = new System.Drawing.Size(75, 97);
-            this.btnCloseChildForm.TabIndex = 1;
-            this.btnCloseChildForm.UseVisualStyleBackColor = true;
-            this.btnCloseChildForm.Click += new System.EventHandler(this.btnCloseChildForm_Click);
             // 
             // guna2ControlBox4
             // 
@@ -949,6 +768,187 @@
             this.gunaAreaDataset2.FillColor = System.Drawing.Color.Empty;
             this.gunaAreaDataset2.Label = "Area1";
             this.gunaAreaDataset2.PointStyle = Guna.Charts.WinForms.PointStyle.Star;
+            // 
+            // btnCloseChildForm
+            // 
+            this.btnCloseChildForm.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnCloseChildForm.FlatAppearance.BorderSize = 0;
+            this.btnCloseChildForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCloseChildForm.Image = global::WindowsFormsApp2.Properties.Resources.cross_out__2_;
+            this.btnCloseChildForm.Location = new System.Drawing.Point(0, 0);
+            this.btnCloseChildForm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnCloseChildForm.Name = "btnCloseChildForm";
+            this.btnCloseChildForm.Size = new System.Drawing.Size(75, 97);
+            this.btnCloseChildForm.TabIndex = 1;
+            this.btnCloseChildForm.UseVisualStyleBackColor = true;
+            this.btnCloseChildForm.Click += new System.EventHandler(this.btnCloseChildForm_Click);
+            // 
+            // btn_BaoCao
+            // 
+            this.btn_BaoCao.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_BaoCao.FlatAppearance.BorderSize = 0;
+            this.btn_BaoCao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_BaoCao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_BaoCao.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btn_BaoCao.Image = global::WindowsFormsApp2.Properties.Resources.baocao;
+            this.btn_BaoCao.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_BaoCao.Location = new System.Drawing.Point(0, 592);
+            this.btn_BaoCao.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_BaoCao.Name = "btn_BaoCao";
+            this.btn_BaoCao.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.btn_BaoCao.Size = new System.Drawing.Size(220, 63);
+            this.btn_BaoCao.TabIndex = 9;
+            this.btn_BaoCao.Text = " Báo Cáo";
+            this.btn_BaoCao.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_BaoCao.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_BaoCao.UseVisualStyleBackColor = true;
+            this.btn_BaoCao.Click += new System.EventHandler(this.btn_BaoCao_Click);
+            // 
+            // btn_MyJob
+            // 
+            this.btn_MyJob.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_MyJob.FlatAppearance.BorderSize = 0;
+            this.btn_MyJob.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_MyJob.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_MyJob.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btn_MyJob.Image = global::WindowsFormsApp2.Properties.Resources.cvct;
+            this.btn_MyJob.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_MyJob.Location = new System.Drawing.Point(0, 529);
+            this.btn_MyJob.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_MyJob.Name = "btn_MyJob";
+            this.btn_MyJob.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.btn_MyJob.Size = new System.Drawing.Size(220, 63);
+            this.btn_MyJob.TabIndex = 8;
+            this.btn_MyJob.Text = "Công Việc Của Tôi";
+            this.btn_MyJob.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_MyJob.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_MyJob.UseVisualStyleBackColor = true;
+            this.btn_MyJob.Click += new System.EventHandler(this.btn_MyJob_Click);
+            // 
+            // btn_setting
+            // 
+            this.btn_setting.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_setting.FlatAppearance.BorderSize = 0;
+            this.btn_setting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_setting.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_setting.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btn_setting.Image = global::WindowsFormsApp2.Properties.Resources.settings;
+            this.btn_setting.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_setting.Location = new System.Drawing.Point(0, 463);
+            this.btn_setting.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_setting.Name = "btn_setting";
+            this.btn_setting.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.btn_setting.Size = new System.Drawing.Size(220, 66);
+            this.btn_setting.TabIndex = 7;
+            this.btn_setting.Text = " Cài Đặt";
+            this.btn_setting.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_setting.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_setting.UseVisualStyleBackColor = true;
+            this.btn_setting.Click += new System.EventHandler(this.btn_setting_Click);
+            // 
+            // btnNotifications
+            // 
+            this.btnNotifications.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnNotifications.FlatAppearance.BorderSize = 0;
+            this.btnNotifications.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNotifications.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnNotifications.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnNotifications.Image = global::WindowsFormsApp2.Properties.Resources.alarm__1_;
+            this.btnNotifications.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNotifications.Location = new System.Drawing.Point(0, 400);
+            this.btnNotifications.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnNotifications.Name = "btnNotifications";
+            this.btnNotifications.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.btnNotifications.Size = new System.Drawing.Size(220, 63);
+            this.btnNotifications.TabIndex = 5;
+            this.btnNotifications.Text = " Duyệt Công Việc";
+            this.btnNotifications.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNotifications.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnNotifications.UseVisualStyleBackColor = true;
+            this.btnNotifications.Click += new System.EventHandler(this.btnNotifications_Click);
+            // 
+            // btnReporting
+            // 
+            this.btnReporting.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnReporting.FlatAppearance.BorderSize = 0;
+            this.btnReporting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReporting.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnReporting.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnReporting.Image = global::WindowsFormsApp2.Properties.Resources.bar_chart;
+            this.btnReporting.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReporting.Location = new System.Drawing.Point(0, 331);
+            this.btnReporting.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnReporting.Name = "btnReporting";
+            this.btnReporting.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.btnReporting.Size = new System.Drawing.Size(220, 69);
+            this.btnReporting.TabIndex = 4;
+            this.btnReporting.Text = " Quản Lý Kế Hoạch";
+            this.btnReporting.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnReporting.UseVisualStyleBackColor = true;
+            this.btnReporting.Click += new System.EventHandler(this.btnReporting_Click);
+            // 
+            // btnCustomer
+            // 
+            this.btnCustomer.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnCustomer.FlatAppearance.BorderSize = 0;
+            this.btnCustomer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnCustomer.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnCustomer.Image = global::WindowsFormsApp2.Properties.Resources.value__1_;
+            this.btnCustomer.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCustomer.Location = new System.Drawing.Point(0, 255);
+            this.btnCustomer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnCustomer.Name = "btnCustomer";
+            this.btnCustomer.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.btnCustomer.Size = new System.Drawing.Size(220, 76);
+            this.btnCustomer.TabIndex = 3;
+            this.btnCustomer.Text = " Quản lý người dùng";
+            this.btnCustomer.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCustomer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCustomer.UseVisualStyleBackColor = true;
+            this.btnCustomer.Click += new System.EventHandler(this.btnCustomer_Click);
+            // 
+            // btnOrders
+            // 
+            this.btnOrders.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnOrders.FlatAppearance.BorderSize = 0;
+            this.btnOrders.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOrders.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnOrders.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnOrders.Image = global::WindowsFormsApp2.Properties.Resources.shopping_list;
+            this.btnOrders.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOrders.Location = new System.Drawing.Point(0, 176);
+            this.btnOrders.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnOrders.Name = "btnOrders";
+            this.btnOrders.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.btnOrders.Size = new System.Drawing.Size(220, 79);
+            this.btnOrders.TabIndex = 2;
+            this.btnOrders.Text = " Tiến Độ Công Việc";
+            this.btnOrders.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOrders.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnOrders.UseVisualStyleBackColor = true;
+            this.btnOrders.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnProducts
+            // 
+            this.btnProducts.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnProducts.FlatAppearance.BorderSize = 0;
+            this.btnProducts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProducts.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnProducts.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnProducts.Image = global::WindowsFormsApp2.Properties.Resources.bk1;
+            this.btnProducts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProducts.Location = new System.Drawing.Point(0, 98);
+            this.btnProducts.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnProducts.Name = "btnProducts";
+            this.btnProducts.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.btnProducts.Size = new System.Drawing.Size(220, 78);
+            this.btnProducts.TabIndex = 1;
+            this.btnProducts.Text = " Quản Lí Môn Học";
+            this.btnProducts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProducts.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnProducts.UseVisualStyleBackColor = true;
+            this.btnProducts.Click += new System.EventHandler(this.btnProducts_Click);
             // 
             // FormMainMenu
             // 
