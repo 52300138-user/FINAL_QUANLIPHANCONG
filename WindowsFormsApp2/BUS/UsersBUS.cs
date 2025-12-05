@@ -60,7 +60,7 @@ namespace WindowsFormsApp2.BUS
                 return false;
             }
 
-            // Chuyển đổi Role (Giữ nguyên logic của bro)
+            // Chuyển đổi Role 
             if (user.Role == "Giảng Viên" || user.Role == "Giảng viên") // Thêm check "Giảng viên"
             {
                 user.Role = "GV";

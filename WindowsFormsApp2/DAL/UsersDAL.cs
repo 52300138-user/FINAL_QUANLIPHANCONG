@@ -273,5 +273,6 @@ namespace WindowsFormsApp2.DAL
             string query = "SELECT UserID, FullName, IsLocked FROM dbo.[User]";
             return Db.ExecuteQuery(query);
         }
+
     }
 }
