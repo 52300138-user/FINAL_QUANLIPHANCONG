@@ -1,0 +1,52 @@
+📘 EduTask Manager Smart – Hướng dẫn cài đặt & chạy ứng dụng
+
+Ứng dụng EduTask Manager Smart (ETMs) là phần mềm WinForms hỗ trợ quản lý công việc, theo dõi tiến độ, nộp – duyệt file, và phân công giảng viên.
+Repo này chứa toàn bộ source code WinForms (.NET Framework 4.8) + SQL Script + hướng dẫn cấu hình.
+
+Yêu cầu hệ thống
+Thành phần	Yêu cầu
+Hệ điều hành	Windows 10 hoặc cao hơn
+.NET Framework	4.8
+SQL Server	SQL Server 2019+ hoặc SQL Express
+Visual Studio	VS 2019 / 2022 (khuyên dùng 2022)
+
+BƯỚC 1: KHỞI TẠO SQL SERVER
+Vào thư mục SQL_SAVE, select all tất cả code, bấm run 1 lần để load database và dữ liệu.
+Database mặc định: [QuanLiPhanCong]
+BƯỚC 2: CẤU HÌNH KẾT NỐI
+Khi đăng nhập lần đầu, ứng dụng sẽ được yêu cầu kết nối tới database, ứng dụng đọc đường kết nối qua: "WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config" và connectionString chỉ tới: "connectionStrings.config"
+Nội dung mẫu:
+<connectionStrings>
+  <add name="MyDB"
+       connectionString="Data Source=DESKTOP-XXXX\SQLEXPRESS;
+                         Initial Catalog=QuanLiPhanCong;
+                         Integrated Security=True;
+                         TrustServerCertificate=True;"
+       providerName="System.Data.SqlClient" />
+</connectionStrings>
+
+BƯỚC 3: Chạy ứng dụng:
+Khi build và chạy (F5):
+Chương trình sẽ kiểm tra chuỗi kết nối.
+Nếu sai → mở cửa sổ FormConfigSQL để nhập server name.
+Test kết nối thành công → vào màn hình đăng nhập.
+
+BƯỚC 4: Đăng nhập
+
+Dữ liệu mẫu (insert trong SQL):
+Trưởng bộ môn (TBM):	adminTBM	adminTBM
+Giảng viên (GV):	adminGV1	adminGV1
+
+I. CHỨC NĂNG CHÍNH
+Dành cho TBM
+ - Quản lý môn học
+ - Tiến độ công việc
+ - Quản lý người dùng
+ - Duyệt file nộp
+ - Dashboard thống kê
+ - Báo cáo tổng hợp
+
+Dành cho Giảng viên (GV)
+ - Xem công việc
+ - Upload file nộp 
+ - Theo dõi tiến độ của riêng mình
