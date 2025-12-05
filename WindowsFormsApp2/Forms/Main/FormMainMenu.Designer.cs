@@ -790,7 +790,7 @@
             this.btn_BaoCao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_BaoCao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btn_BaoCao.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btn_BaoCao.Image = global::WindowsFormsApp2.Properties.Resources.baocao;
+            this.btn_BaoCao.Image = global::WindowsFormsApp2.Properties.Resources.settings;
             this.btn_BaoCao.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_BaoCao.Location = new System.Drawing.Point(0, 592);
             this.btn_BaoCao.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -798,7 +798,7 @@
             this.btn_BaoCao.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.btn_BaoCao.Size = new System.Drawing.Size(220, 63);
             this.btn_BaoCao.TabIndex = 9;
-            this.btn_BaoCao.Text = " Báo Cáo";
+            this.btn_BaoCao.Text = "Cài đặt";
             this.btn_BaoCao.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_BaoCao.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_BaoCao.UseVisualStyleBackColor = true;
@@ -811,7 +811,7 @@
             this.btn_MyJob.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_MyJob.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btn_MyJob.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btn_MyJob.Image = global::WindowsFormsApp2.Properties.Resources.cvct;
+            this.btn_MyJob.Image = global::WindowsFormsApp2.Properties.Resources.baocao;
             this.btn_MyJob.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_MyJob.Location = new System.Drawing.Point(0, 529);
             this.btn_MyJob.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -819,7 +819,7 @@
             this.btn_MyJob.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.btn_MyJob.Size = new System.Drawing.Size(220, 63);
             this.btn_MyJob.TabIndex = 8;
-            this.btn_MyJob.Text = "Công Việc Của Tôi";
+            this.btn_MyJob.Text = "Báo Cáo";
             this.btn_MyJob.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_MyJob.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_MyJob.UseVisualStyleBackColor = true;
@@ -832,7 +832,7 @@
             this.btn_setting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_setting.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btn_setting.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btn_setting.Image = global::WindowsFormsApp2.Properties.Resources.settings;
+            this.btn_setting.Image = global::WindowsFormsApp2.Properties.Resources.cvct;
             this.btn_setting.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_setting.Location = new System.Drawing.Point(0, 463);
             this.btn_setting.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -840,7 +840,7 @@
             this.btn_setting.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.btn_setting.Size = new System.Drawing.Size(220, 66);
             this.btn_setting.TabIndex = 7;
-            this.btn_setting.Text = " Cài Đặt";
+            this.btn_setting.Text = "Công việc của tôi";
             this.btn_setting.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_setting.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_setting.UseVisualStyleBackColor = true;

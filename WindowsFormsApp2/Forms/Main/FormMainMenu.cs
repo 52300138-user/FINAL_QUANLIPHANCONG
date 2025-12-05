@@ -201,7 +201,7 @@ namespace WindowsFormsApp2.Forms.Main
 
         private void btn_setting_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.FormSetting.FormSetting(), sender);
+            OpenChildForm(new Forms.FormCVGV.FormMyJob(), sender);
         }
 
 
@@ -310,7 +310,7 @@ namespace WindowsFormsApp2.Forms.Main
 
         private void btn_MyJob_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.FormCVGV.FormMyJob(), sender);
+            OpenChildForm(new Forms.FormBaoCao.FormBaoCaoTongHop(), sender);
         }
         private void button5_Click(object sender, EventArgs e)
         {
@@ -795,7 +795,7 @@ namespace WindowsFormsApp2.Forms.Main
 
         private void btn_BaoCao_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new WindowsFormsApp2.Forms.FormBaoCao.FormBaoCaoTongHop(), sender);
+            OpenChildForm(new WindowsFormsApp2.Forms.FormSetting.FormSetting(), sender);
         }
     }
 }

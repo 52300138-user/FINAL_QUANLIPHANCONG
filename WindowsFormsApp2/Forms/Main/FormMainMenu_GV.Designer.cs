@@ -242,14 +242,14 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.button1.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button1.Image = global::WindowsFormsApp2.Properties.Resources.bk1;
+            this.button1.Image = global::WindowsFormsApp2.Properties.Resources.settings;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(0, 232);
             this.button1.Name = "button1";
             this.button1.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.button1.Size = new System.Drawing.Size(220, 63);
             this.button1.TabIndex = 3;
-            this.button1.Text = " Môn Học";
+            this.button1.Text = "Cài Đặt";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -260,14 +260,14 @@
             this.btnBaoCao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBaoCao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.btnBaoCao.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnBaoCao.Image = global::WindowsFormsApp2.Properties.Resources.settings;
+            this.btnBaoCao.Image = global::WindowsFormsApp2.Properties.Resources.bk1;
             this.btnBaoCao.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBaoCao.Location = new System.Drawing.Point(0, 162);
             this.btnBaoCao.Name = "btnBaoCao";
             this.btnBaoCao.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.btnBaoCao.Size = new System.Drawing.Size(220, 70);
             this.btnBaoCao.TabIndex = 2;
-            this.btnBaoCao.Text = " Cài Đặt";
+            this.btnBaoCao.Text = "Môn Học";
             this.btnBaoCao.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnBaoCao.Click += new System.EventHandler(this.btnBaoCao_Click);
             // 

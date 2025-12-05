@@ -695,8 +695,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\Debug\Guna.UI2.dll" />
-    <Content Include="bin\Debug\SQLQuery1.sql" />
-    <Content Include="bin\Debug\SQLQuery2.sql" />
     <Content Include="bin\Debug\WindowsFormsApp2.exe" />
     <Content Include="bin\Debug\WindowsFormsApp2.pdb" />
     <Content Include="Resources\alarm %281%29.png" />

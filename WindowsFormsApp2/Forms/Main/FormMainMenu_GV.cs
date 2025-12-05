@@ -166,7 +166,7 @@ namespace WindowsFormsApp2.Forms.Main
         private void btnBaoCao_Click(object sender, EventArgs e)
         {
 
-            OpenChildForm(new Forms.FormSetting.FormSetting(), sender);
+            OpenChildForm(new Forms.FormMHGV.FormMonHoc_GV(), sender);
         }
 
         private void SetGreetingLabel()
@@ -228,7 +228,7 @@ namespace WindowsFormsApp2.Forms.Main
 
         private void button1_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.FormMHGV.FormMonHoc_GV(), sender);
+            OpenChildForm(new Forms.FormSetting.FormSetting(), sender);
         }
 
         private void button5_Click(object sender, EventArgs e)
